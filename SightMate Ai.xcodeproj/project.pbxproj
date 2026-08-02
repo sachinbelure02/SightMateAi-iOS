@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC056ED0301E314A001F529D /* SightMateAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SightMateAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC056EDD301E314B001F529D /* SightMateAiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightMateAiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC056EE7301E314B001F529D /* SightMateAiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightMateAiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC056ED0301E314A001F529D /* SightMate Ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SightMate Ai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC056EDD301E314B001F529D /* SightMate AiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SightMate AiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC056EE7301E314B001F529D /* SightMate AiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SightMate AiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +43,11 @@
 		AC056EEA301E314B001F529D /* SightMateAiUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SightMateAiUITests;
+			sourceTree = "<group>";
+		};
+		AC8BA984301E3B9300577198 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		AC056EC7301E314A001F529D = {
 			isa = PBXGroup;
 			children = (
+				AC8BA984301E3B9300577198 /* Views */,
 				AC056ED2301E314A001F529D /* SightMateAi */,
 				AC056EE0301E314B001F529D /* SightMateAiTests */,
 				AC056EEA301E314B001F529D /* SightMateAiUITests */,
@@ -85,9 +91,9 @@
 		AC056ED1301E314A001F529D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC056ED0301E314A001F529D /* SightMateAi.app */,
-				AC056EDD301E314B001F529D /* SightMateAiTests.xctest */,
-				AC056EE7301E314B001F529D /* SightMateAiUITests.xctest */,
+				AC056ED0301E314A001F529D /* SightMate Ai.app */,
+				AC056EDD301E314B001F529D /* SightMate AiTests.xctest */,
+				AC056EE7301E314B001F529D /* SightMate AiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC056ECF301E314A001F529D /* SightMateAi */ = {
+		AC056ECF301E314A001F529D /* SightMate Ai */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC056EF1301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMateAi" */;
+			buildConfigurationList = AC056EF1301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMate Ai" */;
 			buildPhases = (
 				AC056ECC301E314A001F529D /* Sources */,
 				AC056ECD301E314A001F529D /* Frameworks */,
@@ -109,17 +115,18 @@
 			);
 			fileSystemSynchronizedGroups = (
 				AC056ED2301E314A001F529D /* SightMateAi */,
+				AC8BA984301E3B9300577198 /* Views */,
 			);
-			name = SightMateAi;
+			name = "SightMate Ai";
 			packageProductDependencies = (
 			);
 			productName = SightMateAi;
-			productReference = AC056ED0301E314A001F529D /* SightMateAi.app */;
+			productReference = AC056ED0301E314A001F529D /* SightMate Ai.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC056EDC301E314B001F529D /* SightMateAiTests */ = {
+		AC056EDC301E314B001F529D /* SightMate AiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC056EF4301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMateAiTests" */;
+			buildConfigurationList = AC056EF4301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMate AiTests" */;
 			buildPhases = (
 				AC056ED9301E314B001F529D /* Sources */,
 				AC056EDA301E314B001F529D /* Frameworks */,
@@ -133,16 +140,16 @@
 			fileSystemSynchronizedGroups = (
 				AC056EE0301E314B001F529D /* SightMateAiTests */,
 			);
-			name = SightMateAiTests;
+			name = "SightMate AiTests";
 			packageProductDependencies = (
 			);
 			productName = SightMateAiTests;
-			productReference = AC056EDD301E314B001F529D /* SightMateAiTests.xctest */;
+			productReference = AC056EDD301E314B001F529D /* SightMate AiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AC056EE6301E314B001F529D /* SightMateAiUITests */ = {
+		AC056EE6301E314B001F529D /* SightMate AiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC056EF7301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMateAiUITests" */;
+			buildConfigurationList = AC056EF7301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMate AiUITests" */;
 			buildPhases = (
 				AC056EE3301E314B001F529D /* Sources */,
 				AC056EE4301E314B001F529D /* Frameworks */,
@@ -156,11 +163,11 @@
 			fileSystemSynchronizedGroups = (
 				AC056EEA301E314B001F529D /* SightMateAiUITests */,
 			);
-			name = SightMateAiUITests;
+			name = "SightMate AiUITests";
 			packageProductDependencies = (
 			);
 			productName = SightMateAiUITests;
-			productReference = AC056EE7301E314B001F529D /* SightMateAiUITests.xctest */;
+			productReference = AC056EE7301E314B001F529D /* SightMate AiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC056ECB301E314A001F529D /* Build configuration list for PBXProject "SightMateAi" */;
+			buildConfigurationList = AC056ECB301E314A001F529D /* Build configuration list for PBXProject "SightMate Ai" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +207,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC056ECF301E314A001F529D /* SightMateAi */,
-				AC056EDC301E314B001F529D /* SightMateAiTests */,
-				AC056EE6301E314B001F529D /* SightMateAiUITests */,
+				AC056ECF301E314A001F529D /* SightMate Ai */,
+				AC056EDC301E314B001F529D /* SightMate AiTests */,
+				AC056EE6301E314B001F529D /* SightMate AiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +265,12 @@
 /* Begin PBXTargetDependency section */
 		AC056EDF301E314B001F529D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC056ECF301E314A001F529D /* SightMateAi */;
+			target = AC056ECF301E314A001F529D /* SightMate Ai */;
 			targetProxy = AC056EDE301E314B001F529D /* PBXContainerItemProxy */;
 		};
 		AC056EE9301E314B001F529D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC056ECF301E314A001F529D /* SightMateAi */;
+			target = AC056ECF301E314A001F529D /* SightMate Ai */;
 			targetProxy = AC056EE8301E314B001F529D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +474,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightMateAi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightMateAi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightMate Ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightMate Ai";
 			};
 			name = Debug;
 		};
@@ -488,7 +495,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightMateAi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightMateAi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightMate Ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SightMate Ai";
 			};
 			name = Release;
 		};
@@ -533,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC056ECB301E314A001F529D /* Build configuration list for PBXProject "SightMateAi" */ = {
+		AC056ECB301E314A001F529D /* Build configuration list for PBXProject "SightMate Ai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC056EEF301E314B001F529D /* Debug */,
@@ -542,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC056EF1301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMateAi" */ = {
+		AC056EF1301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMate Ai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC056EF2301E314B001F529D /* Debug */,
@@ -551,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC056EF4301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMateAiTests" */ = {
+		AC056EF4301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMate AiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC056EF5301E314B001F529D /* Debug */,
@@ -560,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC056EF7301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMateAiUITests" */ = {
+		AC056EF7301E314B001F529D /* Build configuration list for PBXNativeTarget "SightMate AiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC056EF8301E314B001F529D /* Debug */,
