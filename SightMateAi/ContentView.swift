@@ -5,7 +5,7 @@ struct ContentView: View {
     
     var body: some View {
         if isActive {
-            HomeView()
+            CameraPermissionView()
         } else {
             SplashView()
                 .onAppear {
@@ -19,17 +19,16 @@ struct ContentView: View {
     }
 }
 
+
 struct SplashView: View {
     var body: some View {
         ZStack {
-            // Full Black Background
             Color.black
                 .ignoresSafeArea()
             
             VStack {
                 Spacer()
                 
-                // Logo Image
                 Image("SplashLogo")
                     .renderingMode(.original)
                     .interpolation(.high)
@@ -37,12 +36,9 @@ struct SplashView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: 150, maxHeight: 150)
                 
-                // App Title Text
                 Text("SightMate AI")
-                    // Custom font style (Avenir Next, Helvetica Neue, Futura, etc.)
                     .font(.custom("AvenirNext-Bold", size: 17))
                     .foregroundColor(.white)
-                    // Text ko niche khiske ke liye gap/padding
                     .padding(.top, 35)
                 
                 Spacer()
@@ -50,6 +46,7 @@ struct SplashView: View {
         }
     }
 }
+
 
 #Preview {
     ContentView()
